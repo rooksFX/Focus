@@ -12,6 +12,7 @@ export default function App() {
       <StatusBar backgroundColor='#34cfff' />
       <View style={styles.title}>
         <Text style={styles.titleText}>F O C U S</Text>
+        <Text style={styles.titleText}>EXPO SNACK TEST</Text>
       </View>
       <Tasks />
     </SafeAreaView>
