@@ -39,6 +39,7 @@ const Upsert = ({task, visible, close, upsert, tasksLength}: IUpsertProps) => {
             overlayStyle ={styles.modal}
             onBackdropPress={close}
         >
+            <Text>THIS IS A TEST. YOOOOOO</Text>
             <TextInput style={styles.field} onChangeText={setTaskDetail} placeholder='Task' value={taskDetail} />
             <Pressable style={styles.add} onPress={onUpsert}>
                 <Text style={styles.add.text}>{task?.id ? 'UPDATE' : 'ADD'}</Text>
